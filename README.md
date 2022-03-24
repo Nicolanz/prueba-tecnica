@@ -1,6 +1,6 @@
 <h1 align = "center">Prueba Tecnica</h1><br>
 <p align="center">
-    <img width="400" height="250" src="https://xpertlab.com/wp-content/uploads/2019/05/xpertlab-angularjs.jpg">
+    <img width="440" height="240" src="https://xpertlab.com/wp-content/uploads/2019/05/xpertlab-angularjs.jpg">
 </p>
 
 ------------
@@ -19,6 +19,9 @@ Correr `npm install` dentro de la carpeta: `my-app` para instalar las dependecia
 # Iniciar la aplicacion  en el puerto: `http://localhost:4200/``
 ng serve -o
 ```
+
+## Ejercicios.
+La resolucion de los problemas asignados estan dentro de la carpeta: `problemas`. Si el Shebang de los archivos no corresponde con el de su maquina corra el comando: `node cakes.js` o `node divisors.js` dentro de la carpeta `problemas`.
 
 
 ## Author:
