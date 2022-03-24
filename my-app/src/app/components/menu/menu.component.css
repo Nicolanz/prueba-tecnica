@@ -1,0 +1,54 @@
+div > div div{
+  height: 90px;
+}
+div > div div#menu1{
+  background: var(--color-purple-1);
+}
+div > div div#menu2{
+  background: var(--color-white-3);
+}
+div > div div#menu3{
+  background: var(--color-white-3);
+  opacity: 0.7;
+}
+div > div div#menu3 + span{
+  opacity: 0.6;
+}
+div > div div#menu4{
+  background: var(--color-white-3);
+}
+div > div span{
+  display: block;
+  background-color: var(--color-pink);
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 65%;
+}
+img{
+  width: 45%;
+}
+div > span{
+  letter-spacing: 0.11px;
+  font-family: var(--font-family-din);
+  font-size: var(--font-size-regular);
+}
+@media screen and (max-width: 540px) {
+  div > div div{
+    height: 60px;
+  }
+  img{
+    width: initial;
+  }
+  div > span{
+    font-size: var(--font-size-small);
+  }
+  div > div span{
+
+    width: 15px;
+    height: 15px;
+
+  }
+}
+

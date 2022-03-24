@@ -1,0 +1,76 @@
+/* global styles */
+
+/* fonts */
+@font-face {
+  src: url(./assets/fonts/DIN2014-Regular.ttf);
+  font-family: din-2014;
+}
+@font-face {
+  src: url(./assets/fonts/DIN2014-Light.ttf);
+  font-family: din-light-2014;
+}
+
+/* root variables */
+:root{
+  --color-white-1: #FFFFFF;
+  --color-white-2: #F1F1F7;
+  --color-white-3: #E4E0E8;
+  --color-black-1:#000000;
+  --color-black-2: #00000029;
+  --color-grey-1: #D8D8D8;
+  --color-grey-2: #474749;
+  --color-grey-3: #777777;
+  --color-grey-4: #707070;
+  --color-purple-1:#632678;
+  --color-purple-2: #492F77;
+  --color-purple-3: #41479B;
+  --color-purple-4: #4E1375;
+  --color-pink: #BC1656;
+  --color-orange: #FF4B55;
+  --color-yellow: #FFE15A;
+  --font-family-roboto: Roboto, sans-serif;
+  --font-family-din: din-2014, sans-serif;
+  --font-family-din-light: din-light-2014, sans-serif;
+  --font-weight-regular: normal;
+  --font-weight-light: lighter;
+  --font-weight-italic: italic;
+  --font-weight-bold: bolder;
+  --font-size-big1: 24px;
+  --font-size-big2: 20px;
+  --font-size-medium: 18px;
+  --font-size-normal: 14px;
+  --font-size-small: 11px;
+}
+
+*:not(form *), body:not(form *){
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+body{
+  background: var(--color-white-2);
+}
+
+.btn-global{
+  background: var(--color-purple-1) 0% 0% no-repeat padding-box !important;
+  border-radius: 8px !important;
+  opacity: 1 !important;
+  color: var(--color-white-1) !important;
+  font-family: var(--font-family-din) !important;
+  font-size: 16px !important;
+  font-weight: var(--font-weight-bold) !important;
+}
+
+.btn-global:hover{
+  color: var(--color-white-1) !important;
+  opacity: 0.7 !important;
+  transition: ease-in 0.2s !important;
+}
+
+.global-container{
+  background: var(--color-white-1) 0% 0% no-repeat padding-box;
+  box-shadow: 2px 2px 6px var(--color-black-2);
+  border-radius: 8px;
+  opacity: 1;
+}

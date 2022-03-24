@@ -1,0 +1,21 @@
+
+div h3{
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-purple-1);
+}
+div h3 span{
+  font-size: var(--font-size-big1);
+  font-weight: var(--font-weight-light) !important;
+  letter-spacing: 0.18px;
+  color: var(--color-grey-2);
+}
+
+@media screen and (max-width: 540px) {
+  div h3{
+    font-size: var(--font-size-regular);
+  }
+  div h3 span{
+    font-size: var(--font-size-medium);
+  }
+}

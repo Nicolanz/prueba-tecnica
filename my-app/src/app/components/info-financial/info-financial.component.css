@@ -1,0 +1,56 @@
+
+h1{
+  font-family: var(--font-family-din-light);
+  font-size: var(--font-size-big1);
+  color: var(--color-purple-1);
+  letter-spacing: 0.2px;
+}
+
+form > button{
+  border: none;
+}
+
+input, option{
+  text-indent: 15px;
+}
+.check label{
+  color: var(--color-grey-3);
+  font-size: var(--font-size-normal);
+  letter-spacing: 0.14px;
+  font-family: var(--font-family-din-light);
+}
+label{
+  color: var(--color-purple-2);
+  font-family: var(--font-family-roboto);
+  font-weight: bold;
+  font-size: var(--font-size-normal);
+}
+input::placeholder{
+  font-family: var(--font-family-roboto);
+  color: var(--color-grey-3);
+  font-size: var(--font-size-normal);
+  opacity: 1;
+}
+
+form div button{
+  width: 200px;
+  height: 50px;
+  border: 1px solid var(--color-grey-1);
+  background: var(--color-white-1);
+}
+
+@media screen and (max-width: 540px) {
+  h1{
+    font-size: var(--font-size-big2);
+  }
+  form div button{
+    width: 170px;
+    height: 40px;
+  }
+  label{
+    font-size: var(--font-size-small);
+  }
+  input::placeholder{
+    font-size: var(--font-size-small);
+  }
+}

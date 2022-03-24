@@ -1,0 +1,6 @@
+
+app-header{
+  background: var(--color-white-3);
+  font-family: var(--font-family-din);
+  font-size: var(--font-size-normal);
+}
