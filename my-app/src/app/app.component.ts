@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import {PostsService} from './services/posts.service';
 
 @Component({
   selector: 'app-root',
@@ -6,10 +7,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
-  imgParent = '';
-
-  onLoaded(img: string){
-    console.log("padre", img);
-  }
 }
